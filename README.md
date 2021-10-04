@@ -7,13 +7,13 @@ ROS:melodic
 
 __Usage__
 
-First of all, compile workspace：
+___1.1 With real Hardware___
+
+First of all, compile workspace in the workspace root：
 
 ```catkin_make```
 
-___1.1 With real Hardware___
-
-To bring up the real robot, run in the workspace root:
+To bring up the real robot, run:
 
 ```source devel/setup.bash```
 
@@ -41,6 +41,7 @@ For starting up RViz with a configuration including the MoveIt! Motion Planning 
 
 ```roslaunch ur5_moveit_config moveit_rviz.launch config:=true```
 
+
 ___1.3 Programming in Python or c++___
 
 Then,you can control ur5 via programming with Python or c++
@@ -53,15 +54,18 @@ When you use python to control ur5 to a given position and attitude in Cartesian
 
 When you use c++ to control ur5 to a given position and attitude in Cartesian space, open a new terminal and run in the workspace root :
 
-```catkin_make```
-
 ```source devel/setup.bash```
 
 ```rosrun marm_planning test_custom_node```
 
+
 ___2.1 Usage with Gazebo Simulation___  
 
-To bring up the simulated robot in Gazebo, run in the workspace root:
+First of all, compile workspace in the workspace root：
+
+```catkin_make```
+
+To bring up the simulated robot in Gazebo, run:
 
 ```source devel/setup.bash```
 
@@ -84,9 +88,10 @@ For starting up RViz with a configuration including the MoveIt! Motion Planning 
 
 ```roslaunch ur5_moveit_config moveit_rviz.launch config:=true```
 
+
 ___2.3 Programming in Python or c++___
 
-Then,you can control ur5 via programming with Python or c++
+Then, you can control ur5 via programming with Python or c++
 
 When you use python to control ur5 to a given position and attitude in Cartesian space,  open a new terminal and run in the workspace root :
 
@@ -95,8 +100,6 @@ When you use python to control ur5 to a given position and attitude in Cartesian
 ```rosrun marm_planning moveit_ik_demo.py```
 
 When you use c++ to control ur5 to a given position and attitude in Cartesian space, open a new terminal and run in the workspace root :
-
-```catkin_make```
 
 ```source devel/setup.bash```
 
