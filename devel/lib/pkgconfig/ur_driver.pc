@@ -1,0 +1,8 @@
+prefix=/home/zfshen/ur5_ws_szf/devel
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.2.5
+Cflags: -I/home/zfshen/ur5_ws_szf/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure
