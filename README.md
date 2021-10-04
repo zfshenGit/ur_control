@@ -1,5 +1,5 @@
 # ur_control
-___Ur5 Control Via Programming with Python or C++___
+__Ur5 Control Via Programming with Python or C++__
 
 Computer Operation System:Linux Ubuntu 18.04
 
