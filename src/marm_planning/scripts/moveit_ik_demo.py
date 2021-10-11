@@ -1,5 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
+# 给定期望的ur5末端执行器的位置和姿态，在笛卡尔空间上控制ur5
+
 
 import rospy, sys
 import moveit_commander
