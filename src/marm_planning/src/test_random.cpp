@@ -1,3 +1,5 @@
+//随机生成一个目标位置，控制ur5运动到随机生成的目标位置
+
 //首先要包含API的头文件
 #include <moveit/move_group_interface/move_group_interface.h>
 
