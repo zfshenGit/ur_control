@@ -1,3 +1,4 @@
+//给定一个路径列表，控制ur5在笛卡尔空间规划出一条经过路径列表中所有路径点的轨迹，并执行，本例路径列表在中只有一个路经点
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/robot_trajectory/robot_trajectory.h>
 
