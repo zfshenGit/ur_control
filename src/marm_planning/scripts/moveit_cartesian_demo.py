@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# 给定一个路径列表，控制ur5在笛卡尔空间规划出一条经过路径列表中所有路径点的轨迹，并执行
 
 import rospy, sys
 import moveit_commander
