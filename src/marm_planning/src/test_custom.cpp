@@ -1,3 +1,5 @@
+//给定期望的ur5末端执行器的位置和姿态，在笛卡尔空间上控制ur5
+
 // 包含miveit的API头文件
 #include <moveit/move_group_interface/move_group_interface.h>
 
