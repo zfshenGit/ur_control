@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# 给定期望的ur5各个关节的关节角，在关节空间上控制ur5
 
 import rospy, sys
 import moveit_commander
